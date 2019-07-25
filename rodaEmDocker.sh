@@ -1,0 +1,1 @@
+docker run -it -e RABBIT_EXCHANGE_NAME=realtime -e RABBIT_EXCHANGE_TYPE=topic -e RABBIT_HOST=192.168.1.105 registry.es.gov.br/espm/transcol-online/realtime/logstash-rabbit:latest

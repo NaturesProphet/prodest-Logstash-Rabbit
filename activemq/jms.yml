@@ -1,0 +1,7 @@
+activemq:
+  :factory: org.apache.activemq.ActiveMQConnectionFactory
+  :broker_url: tcp://dadosrast-gvbus.geocontrol.com.br:24987
+  :username: ???????
+  :password: ???????
+  :require_jars:
+    - /usr/share/logstash/activemq/activemq-all-5.15.8.jar
